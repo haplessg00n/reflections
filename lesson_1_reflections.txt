@@ -1,0 +1,31 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	It isoloted the areas where changes were made, hiding all the unnecessary 
+	text that wasn't changed at all. This speeds up the process considerably. 
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	
+	You can rollback to working versions of a program if some breaking bug occurs. You could run fc or diff
+	to determine where the bug was introduced by comparing the two versions. 
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+	
+	Manually choosing allows to create different verions based on logical changes. Manually saving in prone 
+	to user error. Automatically saving ensures you'll be more protected against losing code better, but 
+	things can get cluttered fast. This is expensive in terms of memory as well. 
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	Because with VCS like git it's likely you want a snapshot of the whole collection. In code with VCS files usually depend on other files to function properly, sometimes a single logical change can span multiple files. This makes rolling changes back easier and testing out the roll backs easier. Others like google docs do not logically connect files to other files, they are independent of one another. 
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+	Navigate to the repository folder, then use git log to display all the recent commits. You can then use git diff in combination with any two commits you wish to compare. 
+
+6. How might using version control make you more confident to make changes that could break something?
+
+	It gives you a safety net, makes you feel like any change could easily be reverted if it breaks the program.
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+	
+	Connecting it to github.
