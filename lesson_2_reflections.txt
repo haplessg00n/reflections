@@ -7,3 +7,29 @@
 
 	The staging area shows what files will be altered in the next commit. This allows you to make a small logical save
 	when you're possibly working on multiple other files simultaneously. 
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+	By comparing the staging area to the last commit, using 'git diff --staged' to see exactly what is in the staging area
+	and what changes are in each file compared to the last commit. If more than one logical change is in the staged area, you can
+	take appropriate action. 
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When you have multiple versions of a program or want to try experimental changes without changint the main program. 
+	Branches help by storing the different versions of your program, allowing you to change between them easily. You can 
+	also make changes to them seperately or both simultaneously. 
+
+5. How do the diagrams help you visualize the branch structure?
+
+	It's easier/faster to distinguish what connections are made, who is a parent/child etc. 
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	It combines all the changes from both branches into a single snapshot. So is it clear who merged into who. 
+	In this case, coins merged INTO master, not vice versa. 
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic would be faster, but could lead to bugs and unintentional output. Manually takes more time,
+	but is safer and helps to prevent bugs and unintentional output.
