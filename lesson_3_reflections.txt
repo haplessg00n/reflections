@@ -19,3 +19,9 @@
 
 	I would probably assign a specific function for each member to work on. Only allowing 1 function to be handled at a time.
 	That way, there are no conflicting merges etc. It would be harder to combine all the final work.
+
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	When you want to make changes that won't affect the main production product just yet. This has the benefit of 
+	being able to experiment freely without any fear of breaking the main application. Making changes directly on master
+	has the benefit of being easier to manage. 
