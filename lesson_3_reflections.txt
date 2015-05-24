@@ -10,3 +10,7 @@
 
 	Forking clones a repository on github that you can administrate. Cloning makes a copy of a repository locally from 
 	either a local or remote source. Branches are collections of connected commits. 
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	Git status can tell us how far we've progressed from the last pull. 
