@@ -13,4 +13,9 @@
 
 4. What is the benefit of having a copy of the last known state of the remote stored locally?
 
-	Git status can tell us how far we've progressed from the last pull. 
+	You can work offline, it saves a lot of data overhead when pushing changes to github and it gives the possibility to do a quick check which changes are made in the online repo compared to the offline repository.
+
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	I would probably assign a specific function for each member to work on. Only allowing 1 function to be handled at a time.
+	That way, there are no conflicting merges etc. It would be harder to combine all the final work.
